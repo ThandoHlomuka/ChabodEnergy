@@ -30,7 +30,7 @@
     --radius-xl: 28px;
     --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --font-body: 'Inter', -apple-system, sans-serif;
-    --font-heading: 'Playfair Display', Georgia, serif;
+    --font-heading: 'DM Serif Display', Georgia, serif;
     --max-width: 1200px;
     --nav-height: 80px;
 }
@@ -125,10 +125,11 @@ ul { list-style: none; }
 .logo-text { display: flex; flex-direction: column; }
 .logo-title {
     font-family: var(--font-heading);
-    font-size: 1.4rem;
-    font-weight: 700;
+    font-size: 1.6rem;
+    font-weight: 400;
     color: var(--text-primary);
     line-height: 1.2;
+    letter-spacing: -0.02em;
 }
 .logo-subtitle {
     font-size: 0.65rem;
@@ -229,10 +230,11 @@ ul { list-style: none; }
 .section-header h2 {
     font-family: var(--font-heading);
     font-size: 2.8rem;
-    font-weight: 700;
-    line-height: 1.2;
+    font-weight: 400;
+    line-height: 1.15;
     margin-bottom: 16px;
     color: var(--text-primary);
+    letter-spacing: -0.03em;
 }
 .section-header p {
     font-size: 1.1rem;
@@ -310,10 +312,11 @@ ul { list-style: none; }
 .hero h1 {
     font-family: var(--font-heading);
     font-size: 4rem;
-    font-weight: 800;
-    line-height: 1.15;
+    font-weight: 400;
+    line-height: 1.1;
     margin-bottom: 24px;
     color: var(--text-primary);
+    letter-spacing: -0.03em;
 }
 .hero p {
     font-size: 1.15rem;
@@ -340,7 +343,7 @@ ul { list-style: none; }
     display: block;
     font-family: var(--font-heading);
     font-size: 2.2rem;
-    font-weight: 700;
+    font-weight: 400;
     color: var(--text-primary);
     background: var(--primary-gradient);
     -webkit-background-clip: text;
@@ -514,7 +517,7 @@ ul { list-style: none; }
 .service-card h3 {
     font-family: var(--font-heading);
     font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 12px;
     color: var(--text-primary);
 }
@@ -591,9 +594,10 @@ ul { list-style: none; }
 .about-content h2 {
     font-family: var(--font-heading);
     font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1.2;
+    font-weight: 400;
+    line-height: 1.15;
     margin-bottom: 20px;
+    letter-spacing: -0.03em;
 }
 .about-content p {
     font-size: 1rem;
@@ -700,15 +704,15 @@ ul { list-style: none; }
 .why-us-number {
     font-family: var(--font-heading);
     font-size: 3rem;
-    font-weight: 800;
-    color: rgba(5, 150, 105, 0.15);
+    font-weight: 400;
+    color: rgba(245, 158, 11, 0.15);
     line-height: 1;
     margin-bottom: 12px;
 }
 .why-us-card h3 {
     font-family: var(--font-heading);
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 10px;
     color: var(--text-primary);
 }
@@ -824,8 +828,9 @@ ul { list-style: none; }
     z-index: 1;
     font-family: var(--font-heading);
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 16px;
+    letter-spacing: -0.03em;
 }
 .cta-content p {
     position: relative;
@@ -998,8 +1003,8 @@ ul { list-style: none; }
 }
 .footer-logo span {
     font-family: var(--font-heading);
-    font-size: 1.3rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 .footer-brand p {
     font-size: 0.85rem;
